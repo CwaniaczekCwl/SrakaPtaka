@@ -1,7 +1,3 @@
-##REPLACE THESE VALUES
-bot_key="PlAcEhOlDeR"
-default_role="RAINBOW"
-##--------------------
 import discord
 import asyncio
 from time import sleep
