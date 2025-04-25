@@ -32,7 +32,7 @@ async def change_role_color():
         color = colors[i % len(colors)]
         await role.edit(colour=discord.Colour(color))
         i += 1
-        await asyncio.sleep(0.7)  
+        await asyncio.sleep(0.5)  
 
 @client.event
 async def on_ready():
